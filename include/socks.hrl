@@ -1,0 +1,10 @@
+-define(SOCKS_VER, 5).
+-define(SOCKS_CONN, 1).
+-define(NO_AUTH, 0).
+-define(UNAME_PASSWD_METHOD, 2).
+-define(RSV, 0).
+-define(ATYP_IP4, 1).
+-define(ATYP_IP6, 4).
+-define(ATYP_DOMAIN_NAME, 3).
+-define(UNAME_PASSWD_SUBNEG_VER, 1).
+-define(SUCCEEDED, 0).

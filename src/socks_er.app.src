@@ -1,0 +1,17 @@
+{application, socks_er,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { socks_er, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    ranch
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["https://github.com/SergeTupchiy"]},
+  {licenses, ["MIT License"]},
+  {links, []}
+ ]}.
